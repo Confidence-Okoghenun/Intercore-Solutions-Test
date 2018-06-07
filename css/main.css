@@ -1,0 +1,57 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+#side-bar {
+  height: 600px;
+  font-size: 0.8em;
+  color: white;
+  
+}
+#profile-img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 15px;
+  border-radius: 100%;
+  border: 1px solid white;
+  padding: 3px;
+}
+#profile {
+  margin-top: 15px;
+}
+#profile-name {
+  display: inline;
+  margin-top: 0;
+  font-size: 1em;
+}
+#profile-class {
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.blue {
+  background-color: rgb(78, 104, 235);
+}
+.list-groups p {
+  color: white;
+  opacity: 0.5;
+  margin: 5px 0;
+}
+.far {
+  margin-right: 5px;
+}
+div>ul>li.list-group-item {
+  border: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 10px !important;
+}
+
+
+@media (min-width: 768px) {
+.col-md-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 18%;
+  flex: 0 0 18%;
+  max-width: 18%;
+  }
+}
