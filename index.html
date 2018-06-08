@@ -16,56 +16,72 @@
 <body>
 
   <div class="row">
-  <div class="col-md-3 blue" id="side-bar">
-    <div class="container">
-      <div id="profile">
-        <img src="http://nrm.co.nz/wp-content/uploads/2017/08/facebook-avatar.jpg" alt="profile image" id="profile-img">
-        <h4 id="profile-name">Mr Lucky</h4>
-        <p id="profile-class">MERCHANT</p>
-      </div>
-      <div class="list-groups">
-        <p class="">MAIN</p>
-        <ul class="list-group list-group-flush ">
-          <li class="list-group-item blue">
-            <i class="far fa-newspaper"></i>
-            Home
-          </li>
-        <li class="list-group-item blue"><i class="far fa-user-circle"></i>Profile</li>
-<li class="list-group-item blue">
-  <i class="far fa-link"></i>Pay Links</li>
-<li class="list-group-item blue">
-  <i class="far fa-envelope"></i>Messages</li>
+    <div class="col-md-3 blue" id="side-bar">
+      <div class="container">
+        <div id="profile">
+          <img src="img/avatar.png" alt="profile image" id="profile-img">
+          <h4 id="profile-name">Mr Lucky</h4>
+          <p id="profile-class">MERCHANT</p>
+        </div>
+        <div class="list-groups">
+          <p class="">MAIN</p>
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item blue">
+              <i class="far fa-newspaper"></i>Home
+            </li>
+            <li class="list-group-item blue"><i class="far fa-user-circle"></i>Profile</li>
+            <li class="list-group-item blue">
+              <i class="far fa-link"></i>Pay Links
+            </li>
+            <li class="list-group-item blue">
+              <i class="far fa-envelope"></i>Messages
+            </li>
+          </ul>
+        </div>
 
-        </ul>
-      </div>
+        <div class="list-groups">
+          <p class="">MERCHANT</p>
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item blue">Product</li>
+            <li class="list-group-item blue">Branches</li>
+          </ul>
+        </div>
 
-      <div class="list-groups">
-        <p class="">MERCHANT</p>
-        <ul class="list-group list-group-flush ">
-          <li class="list-group-item blue">Product</li>
-          <li class="list-group-item blue">Branches</li>
-        </ul>
-      </div>
+        <div class="list-groups">
+          <p class="">MUSTARD</p>
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item blue">Transfer</li>
+            <li class="list-group-item blue">Transactions</li>
+            <li class="list-group-item blue">Recurring</li>
+          </ul>
+        </div>
 
-      <div class="list-groups">
-        <p class="">MUSTARD</p>
-        <ul class="list-group list-group-flush ">
-          <li class="list-group-item blue">Transfer</li>
-          <li class="list-group-item blue">Transactions</li>
-          <li class="list-group-item blue">Recurring</li>
-        </ul>
-      </div>
-
-      <div class="list-groups">
-        <p class="">MORE</p>
-        <ul class="list-group list-group-flush ">
-          <li class="list-group-item blue">Contacts</li>
-          <li class="list-group-item blue">Logout</li>
-        </ul>
+        <div class="list-groups">
+          <p class="">MORE</p>
+          <ul class="list-group list-group-flush ">
+            <li class="list-group-item blue">Contacts</li>
+            <li class="list-group-item blue">Logout</li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-    <div class="col-md-9"></div>
+    <div class="col-md-9" id="dashboard">
+      <div class="row" id="top">
+        <div class="col-md-3" id="cards">
+          <!-- <img src="img/card.png" alt="card icon"> -->
+          <h5>Cards</h5>
+          <p>Pay with card</p>
+          <span id="chevron-down"><i class="fas fa-chevron-down"></i></span>
+        </div>
+        <div class="col-md-3 offset-md-6">
+          <form method="get" action="/search" id="searchbox">
+            <input id="search" name="q" type="text" size="40" placeholder="Start typing to search..." />
+          </form>
+          <img src="img/avatar.png" alt="profile image" id="profile-search-img">
+        </div>
+      </div>
+      
+    </div>
   </div>
   
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
