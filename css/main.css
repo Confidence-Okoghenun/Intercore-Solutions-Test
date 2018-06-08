@@ -63,6 +63,10 @@ div>ul>li.list-group-item {
   flex: 0 0 82%;
   max-width: 82%;
   }
+#card-img {
+  padding-top: 3px;
+  width: 50px;
+}
 #cards {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 20%;
@@ -171,4 +175,63 @@ margin-bottom: -10px;
   box-shadow: 9px 9px 7px -6px rgba(85, 85, 85, 0.11);
   -webkit-box-shadow: 9px 9px 7px -6px rgba(85, 85, 85, 0.11);
   -moz-box-shadow: 9px 9px 7px -6px rgba(85, 85, 85, 0.11);
+}
+table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  border: 0 !important;
+  color: rgba(0, 0, 0, 0.645);
+}
+
+ th.no-border {
+  border: 0;
+  color: rgba(0, 0, 0, 0.371);
+  font-size: .8em;
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.tb-card {
+  height: 60px;
+  background: white;
+  border: 10px solid #f2f3f8;
+   
+}
+
+
+td:first-child {
+  border-left-style: solid;
+  border-top-left-radius: 22px;
+  border-bottom-left-radius: 22px;
+}
+
+td:last-child {
+  border-right-style: solid;
+  border-bottom-right-radius: 22px;
+  border-top-right-radius: 22px;
+}
+td.desc-text {
+  font-size: 0.7em;
+  color: #cecfd3;
+  padding-top: 25px;
+}
+.fa-circle {
+  color: rgb(84, 217, 30);
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-right: -8px;
+}
+.trans-img {
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+}
+td.text-down {
+  padding-top: 18px;
+}
+#br-dash-text {
+  margin-top: 38px;
 }

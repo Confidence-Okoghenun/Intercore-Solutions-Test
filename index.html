@@ -68,7 +68,7 @@
     <div class="col-md-9" id="dashboard">
       <div class="row" id="top">
         <div class="col-md-3" id="cards">
-          <img src="img/card.png" alt="card icon">
+          <img id="card-img" src="img/card.png" alt="card icon">
           <h5>Cards</h5>
           <p>Pay with card</p>
           <span id="chevron-down"><i class="fas fa-chevron-down"></i></span>
@@ -81,7 +81,7 @@
         </div>
       </div>
       <div id="container">
-        <div>
+        <div class="section">
           <p class="dash-text">Dashboard</p>
           <hr class="dash-hr1"><hr class="dash-hr2">
           <br>
@@ -111,6 +111,60 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="section">
+          <p class="dash-text" id="br-dash-text">Recent Transactions ($1,651)</p>
+          <hr class="dash-hr1">
+          <hr class="dash-hr2">
+          <br>
+          <table class="table table-bordered ">
+            <tr class="th-row">
+              <th class="no-border"></th>
+              <th class="no-border">SENDER</th>
+              <th class="no-border">DESCRIPTION</th>
+              <th class="no-border">BENEFICIARY</th>
+              <th class="no-border">TRANSACTION ID</th>
+              <th class="no-border">AMOUNT</th>
+              <th class="no-border">DATE</th>
+            </tr>
+            <tr class="tb-card">
+                <td><i class="fas fa-circle"></i></td>
+                <td> <img src="img/avatar.png" alt="profile image" class="trans-img"> &nbsp; Lucky Erumebor</td>
+                <td class="desc-text">My rent was paid</td>
+                <td> <img src="img/avatar.png" alt="profile image" class="trans-img"> &nbsp;Mr Lucky</td>
+                <td class="text-down">6hvr55f</td>
+                <td class="text-down">$1,400</td>
+                <td class="desc-text">May 3rd 2018, 12:00 am</td>
+              </tr>
+            <tr class="tb-card">
+              <td><i class="fas fa-circle"></i></td>
+              <td> <img src="img/avatar.png" alt="profile image" class="trans-img"> &nbsp; Lucky Erumebor</td>
+              <td class="desc-text">r3UT8iD</td>
+              <td> <img src="img/avatar.png" alt="profile image" class="trans-img"> &nbsp;Mr Lucky</td>
+              <td class="text-down">r3UT8iD</td>
+              <td class="text-down">$20</td>
+              <td class="desc-text">May 8th 2018, 06:03 am</td>
+            </tr>
+            <tr class="tb-card">
+              <td><i class="fas fa-circle"></i></td>
+              <td> <img src="img/avatar.png" alt="profile image" class="trans-img"> &nbsp; Lucky Erumebor</td>
+              <td class="desc-text">Osj3vRB</td>
+              <td> <img src="img/avatar.png" alt="profile image" class="trans-img"> &nbsp;Mr Lucky</td>
+              <td class="text-down">Osj3vRB</td>
+              <td class="text-down">$90</td>
+              <td class="desc-text">May 8th 2018, 06:06 am</td>
+            </tr>
+            <tr class="tb-card">
+              <td><i class="fas fa-circle"></i></td>
+              <td> <img src="img/avatar.png" alt="profile image" class="trans-img"> &nbsp; Lucky Erumebor</td>
+              <td class="desc-text">WkV9oXT</td>
+              <td> <img src="img/avatar.png" alt="profile image" class="trans-img"> &nbsp;Mr Lucky</td>
+              <td class="text-down">WkV9oXT</td>
+              <td class="text-down">$90</td>
+              <td class="desc-text">May 8th 2018, 06:08 am</td>
+            </tr>
+            
+          </table>
         </div>
       </div>
     </div>
