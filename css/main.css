@@ -17,7 +17,7 @@ body {
   padding: 3px;
 }
 #profile {
-  margin-top: 15px;
+  margin-top: 17px;
 }
 #profile-name {
   display: inline;
@@ -36,6 +36,11 @@ body {
 .list-groups p {
   color: rgba(255, 255, 255, 0.672);
   margin: 5px 0;
+}
+div.list-groups > p {
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 12px;
 }
 .far {
   margin-right: 5px;
