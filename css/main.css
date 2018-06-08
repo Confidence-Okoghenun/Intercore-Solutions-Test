@@ -72,7 +72,7 @@ div>ul>li.list-group-item {
 }
 #top {
   height: 50px;
-  border-bottom: 1px solid rgb(209, 209, 209);
+  border-bottom: 1px solid rgba(209, 209, 209, 0.426);
 }
 #cards {
   background : #5500ff;
@@ -136,4 +136,39 @@ div>ul>li.list-group-item {
   height: 35px;
   border-radius: 100%;
   margin: 5px 0 5px 19px;
+}
+#container {
+  padding: 35px 30px 30px 15px;
+}
+.dash-text {
+margin-bottom: -10px;
+}
+.dash-hr1 {
+  width: 1.5%;
+  height: 4px;
+  display: inline;
+  float: left;
+  border: 1px solid rgb(28, 58, 208);
+  background: rgb(28, 58, 208);
+  border-radius: 30%;
+}
+.dash-hr2 {
+  margin-top: 19px;
+  width: 98%;
+  display: inline-block;
+  border-top: 1px solid rgba(209, 209, 209, 0.426);
+}
+.card-title {
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  color: rgb(181, 181, 181);
+}
+.card-text {
+  font-size: 2em;
+}
+.card {
+  border-color: white;
+  box-shadow: 9px 9px 7px -6px rgba(85, 85, 85, 0.11);
+  -webkit-box-shadow: 9px 9px 7px -6px rgba(85, 85, 85, 0.11);
+  -moz-box-shadow: 9px 9px 7px -6px rgba(85, 85, 85, 0.11);
 }
